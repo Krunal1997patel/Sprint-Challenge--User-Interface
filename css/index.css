@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -170,43 +170,43 @@ header{
     color: black;
 }
 
-.box1{
+.middle-content .boxes .box1{
     background: teal;
 }
 
-.box2{
+.middle-content .boxes .box2{
     background: gold;
 }
 
-.box3{
+.middle-content .boxes .box3{
     background: cadetblue;
 }
 
-.box4{
+.middle-content .boxes .box4{
     background: coral;
 }
 
-.box5{
+.middle-content .boxes .box5{
     background: crimson;
 }
 
-.box6{
+.middle-content .boxes .box6{
     background: forestgreen;
 }
 
-.box7{
+.middle-content .boxes .box7{
     background: darkorchid;
 }
 
-.box8{
+.middle-content .boxes .box8{
     background: hotpink;
 }
 
-.box9{
+.middle-content .boxes .box9{
     background: indigo;
 }
 
-.box10{
+.middle-content .boxes .box10{
     background: dodgerblue;
 }
 
@@ -271,3 +271,71 @@ button:hover{
     color: white;
     background-color: black
 }
+
+/* blog */
+
+.blogImg{
+    display: flex;
+    margin-top: 20px;
+}
+
+.blogImg h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    font-size: 35px;
+}
+
+.blogImg p{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.blogImg img{
+    width: 505px;
+    height: auto;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    border-top: 1px dashed black;
+
+}
+
+.text div{
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 7px black;
+}
+
+.text h2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.text button{
+    background: rgb(184, 78, 78);
+    margin: 20px 45px;
+}
+
+.text button:hover{
+    transition: 0.4s;
+    padding: 10px 40px;
+}
+
