@@ -144,3 +144,198 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* index.html */
+
+header{
+    display: flex;
+    margin: 3% 0;
+}
+
+.topImg{
+    margin: 2% 0;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%; 
+    margin:  17px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5{
+    background: crimson;
+}
+
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+
+
+
+/* About page */
+
+
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about h2{
+    margin-left: 13px; 
+}
+
+.about p{
+   margin: 13px; 
+}
+
+.bottom{
+    padding: 20px;
+}
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+.row1 div{
+    width: 49%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.row2 div{
+    width: 49%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.info h2{
+    margin-top: 3%;
+}
+
+button{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 25px;
+    background-color: white;
+    cursor: pointer;
+    margin: 5% 0;
+    transition: 0.4s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background-color: black
+}
+
+/* blog */
+
+.blogImg{
+    display: flex;
+    margin-top: 20px;
+}
+
+.blogImg h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    font-size: 35px;
+}
+
+.blogImg p{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.blogImg img{
+    width: 505px;
+    height: auto;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    border-top: 1px dashed black;
+
+}
+
+.text div{
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 7px black;
+}
+
+.text h2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.text button{
+    background: rgb(184, 78, 78);
+    margin: 20px 45px;
+}
+
+.text button:hover{
+    transition: 0.4s;
+    padding: 10px 40px;
+}
+
