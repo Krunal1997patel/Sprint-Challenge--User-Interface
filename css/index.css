@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,131 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* index.html */
+
+header{
+    display: flex;
+    margin: 3% 0;
+}
+
+.topImg{
+    margin: 2% 0;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%; 
+    margin:  17px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
+}
+
+
+
+/* About page */
+
+
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about h2{
+    margin-left: 13px; 
+}
+
+.about p{
+   margin: 13px; 
+}
+
+.bottom{
+    padding: 20px;
+}
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+.row1 div{
+    width: 49%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.row2 div{
+    width: 49%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.info h2{
+    margin-top: 3%;
+}
+
+button{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 25px;
+    background-color: white;
+    cursor: pointer;
+    margin: 5% 0;
+    transition: 0.4s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background-color: black
 }
